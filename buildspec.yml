@@ -17,7 +17,7 @@ phasses:
   post_build:
     commands: 
       - echo Build completed on `date`
-      ls -l ./dist/shop/
+      - ls -l ./dist/shop/
 artifacts: 
   files:
     - dist/shop/*
