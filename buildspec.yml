@@ -21,4 +21,5 @@ phases:
 artifacts: 
   files:
     - dist/shop/**
+    - dist/shop/**/*
     - appspec.yml
