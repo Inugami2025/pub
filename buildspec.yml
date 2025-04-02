@@ -20,6 +20,6 @@ phases:
       - ls -l ./dist/shop/
 artifacts: 
   files:
-    - dist/shop/**
-    - dist/shop/**/*
+    - dist/shop/*
+    - dist/shop/assets/*
     - appspec.yml
